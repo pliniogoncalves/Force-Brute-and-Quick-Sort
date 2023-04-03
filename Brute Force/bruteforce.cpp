@@ -1,25 +1,17 @@
-#include <iostream>
-using namespace std;
+#include "bruteforce.hpp"
 
-int main()
-{
-    int n, menor; // declaração das variáveis "n" para o tamanho da lista e "menor" para armazenar o menor número encontrado
-    cout << "Digite o tamanho da lista: ";
-    cin >> n;
-    int lista[n]; // declaração da lista com o tamanho fornecido pelo usuário
-    for (int i = 0; i < n; i++)
-    {
-        cout << "Digite o " << i+1 << "o elemento: "; // solicita ao usuário para digitar o elemento i+1 da lista
-        cin >> lista[i]; // lê o elemento digitado e armazena na lista
-    }
-    menor = lista[0]; // inicializa a variável "menor" com o primeiro elemento da lista
-    for (int i = 1; i < n; i++)
-    {
-        if (lista[i] < menor) // verifica se o elemento atual é menor do que o menor atual
-        {
-            menor = lista[i]; // atualiza a variável "menor" com o elemento atual, se necessário
+void bruteForce(int arr[], int tamanho){
+    int i, j;
+    for (i = 0; i < tamanho-1; i++) {
+        // Percorre o array até o penúltimo elemento
+        for(j = 0; j < tamanho-i-1; j++) {
+            // Percorre o array até o elemento que precisa ser ordenado
+            if(arr[j] > arr[j+1]) {
+                // Troca os elementos adjacentes de lugar
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
         }
     }
-    cout << "O menor número é: " << menor << endl; // exibe o menor número encontrado na lista
-    return 0;
 }
