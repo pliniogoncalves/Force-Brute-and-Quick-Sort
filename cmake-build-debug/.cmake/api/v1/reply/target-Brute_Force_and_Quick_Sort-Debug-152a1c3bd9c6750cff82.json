@@ -96,13 +96,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Brute Force/main.cpp",
+			"path" : "Quick Sort/quicksort.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Quick Sort/main.cpp",
+			"path" : "Brute Force/bruteforce.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

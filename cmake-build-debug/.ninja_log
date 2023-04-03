@@ -1,0 +1,8 @@
+# ninja log v5
+0	123	1680525227027572509	CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/main.cpp.o	e934ba1a91634568
+0	121	1680525227027572509	CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/main.cpp.o	d2312bf323a590fd
+0	11	1680525420164670604	build.ninja	dd93bbf55245e67f
+1	36	1680525367582298950	Brute_Force_and_Quick_Sort	7934987b31bcaa66
+0	101	1680525332783472620	CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/quicksort.cpp.o	e753d5abe111ddba
+0	102	1680525425480515136	CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/bruteforce.cpp.o	6759399a29900354
+0	101	1680525708986187855	CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/bruteforce.cpp.o	6759399a29900354

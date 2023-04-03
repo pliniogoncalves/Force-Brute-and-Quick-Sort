@@ -49,17 +49,17 @@ cmake_ninja_workdir = /home/plinio/Documentos/IREDE/Brute$ Force$ and$ Quick$ So
 
 build cmake_object_order_depends_target_Brute_Force_and_Quick_Sort: phony || CMakeFiles/Brute_Force_and_Quick_Sort.dir
 
-build CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/main.cpp.o: CXX_COMPILER__Brute_Force_and_Quick_Sort_Debug /home/plinio/Documentos/IREDE/Brute$ Force$ and$ Quick$ Sort/Brute$ Force/main.cpp || cmake_object_order_depends_target_Brute_Force_and_Quick_Sort
-  DEP_FILE = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/main.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
-  OBJECT_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir
-  OBJECT_FILE_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force
-
-build CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/main.cpp.o: CXX_COMPILER__Brute_Force_and_Quick_Sort_Debug /home/plinio/Documentos/IREDE/Brute$ Force$ and$ Quick$ Sort/Quick$ Sort/main.cpp || cmake_object_order_depends_target_Brute_Force_and_Quick_Sort
-  DEP_FILE = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/main.cpp.o.d
+build CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/quicksort.cpp.o: CXX_COMPILER__Brute_Force_and_Quick_Sort_Debug /home/plinio/Documentos/IREDE/Brute$ Force$ and$ Quick$ Sort/Quick$ Sort/quicksort.cpp || cmake_object_order_depends_target_Brute_Force_and_Quick_Sort
+  DEP_FILE = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/quicksort.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++11
   OBJECT_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir
   OBJECT_FILE_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort
+
+build CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/bruteforce.cpp.o: CXX_COMPILER__Brute_Force_and_Quick_Sort_Debug /home/plinio/Documentos/IREDE/Brute$ Force$ and$ Quick$ Sort/Brute$ Force/bruteforce.cpp || cmake_object_order_depends_target_Brute_Force_and_Quick_Sort
+  DEP_FILE = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/bruteforce.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++11
+  OBJECT_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir
+  OBJECT_FILE_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/main.cpp.o: CXX_COMPI
 #############################################
 # Link the executable Brute_Force_and_Quick_Sort
 
-build Brute_Force_and_Quick_Sort: CXX_EXECUTABLE_LINKER__Brute_Force_and_Quick_Sort_Debug CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/main.cpp.o CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/main.cpp.o
+build Brute_Force_and_Quick_Sort: CXX_EXECUTABLE_LINKER__Brute_Force_and_Quick_Sort_Debug CMakeFiles/Brute_Force_and_Quick_Sort.dir/Quick_Sort/quicksort.cpp.o CMakeFiles/Brute_Force_and_Quick_Sort.dir/Brute_Force/bruteforce.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/Brute_Force_and_Quick_Sort.dir
   POST_BUILD = :
