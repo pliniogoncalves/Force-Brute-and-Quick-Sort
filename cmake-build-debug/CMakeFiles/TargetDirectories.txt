@@ -1,0 +1,3 @@
+/home/plinio/Documentos/IREDE/Brute Force and Quick Sort/cmake-build-debug/CMakeFiles/Brute_Force_and_Quick_Sort.dir
+/home/plinio/Documentos/IREDE/Brute Force and Quick Sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/plinio/Documentos/IREDE/Brute Force and Quick Sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir
